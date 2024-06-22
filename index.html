@@ -1,0 +1,103 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="home-content">
+            <h1>I Am A Creative Web Developer From Aurangabad</h1>
+            <img src="teenal.jpeg" alt="Your Photo">
+            <p>My journey as a front-end developer showcasing my growing proficiency through various projects.I
+                specialize in creating responsive and user freindly interface using HTML,CSS and JavaScript.</p>
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+    </section>
+
+    <div class="columns">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>SEcond-year engineering student at Goverment college of engineering,Aurangabad,speccializing in Information
+                Technology.Passionate about front-end development and creating interactive user interfaces.</p>
+            <p>Pursing a Bachelor's degree with coursework in web development,Algorithms,Data Structures, and Human-Computer
+                intercation.Actively involved in coding clubs and Workshops to enhance frontend skills.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Responsive design</li>
+                
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Stopwatch Application</h3>
+                <p>A stopwatch application is built using programming languages like Java for Android or Swift/Objective-C
+                    for iOS, and sometimes JavaScript for web versions. It utilizes platform-specific SDKs (like Android SDK
+                    or iOS SDK), frameworks (React Native for cross-platform), and libraries for UI design, timekeeping, and
+                    data storage. Testing involves unit and integration tests, and deployment is typically on app stores or
+                    web hosting platforms.</p>
+                <a href="https://teena-lohakare.github.io/Stopwatch-application/">View Project</a>
+            </div>
+           
+        </section>
+
+        <section id="services">
+            <h2>Services</h2>
+            <ul>
+                <li>Front-End Development</li>
+                <li>SEO</li>
+                
+            </ul>
+        </section>
+    </div>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="contact-form-handler.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Connect with me on <a href="https://www.linkedin.com/in/teena-lohakare-6a2642294">LinkedIn</a> | <a href="https://t.ly/RQTwI">Whatsapp</a> | <a
+                href="https://www.instagram.com/te.ena1760/">Instagram</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
